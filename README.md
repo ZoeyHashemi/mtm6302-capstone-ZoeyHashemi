@@ -46,3 +46,24 @@ I will carefully select a visually appealing and cohesive color scheme, typograp
 
 By meticulously crafting each of these elements, I aim to create a homepage that seamlessly combines functionality with visual appeal, thereby simplifying user interactions with my Astronomy Picture of the Day web application.
 
+# Name: Zoey Hashemi
+# Student number: 041076728
+#  Project name: Capstone Project - Part 3
+
+In this part I focus on create basic html with Bootstrap and style it  as I designed in Part 2, by css and use some Js animated libraries like  , smooth scrolling, and integrating a date picker for user interaction.
+
+# Dynamic Navigation Bar:
+
+I made a responsive navigation bar  which is dynamically created and inserted into the designated placeholder element using JavaScript.
+The navigation bar includes links to different pages of the website. Also  I make it sticky when the user scrolls down the page, enhancing the user experience.
+# Date Picker:
+
+I've tried to use  date picker that is implemented using jQuery UI, allowing users to select a date interactively, but I have some problem and I can't resolved it so far.
+
+I attempted to use the jQuery UI datepicker, but there might be conflicts or issues with its initialization. 
+jQuery
+jQuery UI
+Pikaday
+Moment.js
+Bootstrap
+Font awesome
