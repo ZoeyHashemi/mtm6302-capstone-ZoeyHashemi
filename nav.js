@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             <nav class="navbar navbar-expand-lg " >
                      <div class="container-fluid">
-                    <a class="navbar-brand" href="#">APOD</a>
+                    <a class="navbar-brand" href="index.html">APOD</a>
                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                          <span class="navbar-toggler-icon"></span>
                      </button>
@@ -15,20 +15,18 @@ document.addEventListener('DOMContentLoaded', function () {
                              <li class="nav-item">
                                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                              </li>
-                             <li class="nav-item">
-                                 <a class="nav-link" href="#">Search</a>
-                             </li>
+                           
                              <li class="nav-item">
                                  <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Gallery</a>
                              </li>
                              <li class="nav-item">
-                                 <a class="nav-link active" href="favorite.html" tabindex="-1" aria-disabled="true">Favorite</a>
+                                 <a class="nav-link active" href="favorites.html" tabindex="-1" aria-disabled="true">Favorite</a>
                              </li>
                              <li class="nav-item">
                                  <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Login</a>
                              </li>
                         </ul>
-                        <button class="btn btn-outline-success custom-oval-button" type="submit">Join</button>
+                        <button class="btn btn-primary" type="submit">Join</button>
 
                     </div>
                 </div>

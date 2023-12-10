@@ -28,7 +28,7 @@ const createFooter = () => {
                         <ul class="list-unstyled category">
                             <li class="category-title">Quick Links</li>
                             <li><a href="index.html" class="footer-link">Home</a></li>
-                            <li><a href="#" class="footer-link">Gallery</a></li>
+                            <li><a href="favorites.html" class="footer-link">favorites</a></li>
                             <li><a href="about.html" class="footer-link">About Us</a></li>
                             <li><a href="contact.html" class="footer-link">Contact</a></li>
                             <li><a href="#" class="footer-link">Help& FAQ's</a></li>

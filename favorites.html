@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite APOD</title>
+     <!-- Css Animated -->
+    
+    <!-- Custom Style -->
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel= "stylesheet" href= "style.css">
+</head>
+<body>
+    <!-- Navbar Start -->
+    <script src="nav.js"></script>
+    <div id="navbar-placeholder"></div>
+
+     <!-- Nav Bar End -->
+  <div class="hero">
+        <h1 class="text-center mb-4">My Favorite Images</h1>
+    </div>
+        <div id="favorites" class="row row-cols-1 row-cols-md-3 g-4"></div>
+        <div id="descriptionContainer" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Image Description</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                            <i class="fas fa-times"></i> Close
+                        </button>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- <h1 class="text-center">My Favorite</h1>
+
+        <div class="row"> -->
+            <!-- picture 1 -->
+                <!-- <div class="col-md-4 animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+                    <div class="images">
+                        <div class="top-card">
+                            <div class="top-image">
+                                <img src="images/heartandsoul_dss.jpg" class="img-thumbnail" alt="blue black sky with stars">
+                            </div>
+                            <div class="top-icons">
+                                <i class="fas fa-expand-arrows-alt"></i>
+                                <i class="fas fa-download"></i>
+                                <i class="fas fa-trash-alt"></i>
+                                <i class="fas fa-share-alt"></i>
+                            </div>
+                            <div class="image-info">
+                                <h3 class="image-name">Milky way full of stars in space</h3>
+                                <p class="image-short-info">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                    <!-- picture 2 -->
+                    <!-- <div class="col-md-4 animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+                        <div class="images">
+                            <div class="top-card">
+                                <div class="top-image">
+                                    <img src="images/GrandCanyonSunset_Fugate_960.jpg" class="img-thumbnail" alt="GrandCanyonSunset">
+                                </div>
+                                <div class="top-icons">
+                                    <i class="fas fa-expand-arrows-alt"></i>
+                                    <i class="fas fa-download"></i>
+                                    <i class="fas fa-trash-alt"></i>
+                                    <i class="fas fa-share-alt"></i>
+                                </div>
+                                <div class="image-info">
+                                    <h3 class="image-name">Grand Canyon Sunset</h3>
+                                    <p class="image-short-info">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- picture 3 -->
+                    <!-- <div class="col-md-4 animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+                        <div class="images">
+                            <div class="top-card">
+                                <div class="top-image">
+                                    <img src="images/galaxy-3608029_1920.jpg" class="img-thumbnail" alt="galaxy">
+                                </div>
+                                <div class="top-icons">
+                                    <i class="fas fa-expand-arrows-alt"></i>
+                                    <i class="fas fa-download"></i>
+                                    <i class="fas fa-trash-alt"></i>
+                                    <i class="fas fa-share-alt"></i>
+                                </div>
+                                <div class="image-info">
+                                    <h3 class="image-name">Galaxies</h3>
+                                    <p class="image-short-info">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- picture 4 -->
+                    <!-- <div class="col-md-4 animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+                        <div class="images">
+                            <div class="top-card">
+                                <div class="top-image">
+                                    <img src="images/night-photograph-2183637_1920.jpg" class="img-thumbnail" alt="blue black sky with stars">
+                                </div>
+                                <div class="top-icons">
+                                    <i class="fas fa-expand-arrows-alt"></i>
+                                    <i class="fas fa-download"></i>
+                                    <i class="fas fa-trash-alt"></i>
+                                    <i class="fas fa-share-alt"></i>
+                                </div>
+                                <div class="image-info">
+                                    <h3 class="image-name">Milky way full of stars in space</h3>
+                                    <p class="image-short-info">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- picture 5 -->
+                    <!-- <div class="col-md-4 animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+                       <div class="images">
+                            <div class="top-card">
+                                <div class="top-image">
+                                    <img src="images/stars-1837306_1920.jpg" class="img-thumbnail" alt="blue black sky with stars">
+                                </div>
+                                <div class="top-icons">
+                                    <i class="fas fa-expand-arrows-alt"></i>
+                                    <i class="fas fa-download"></i>
+                                    <i class="fas fa-trash-alt"></i>
+                                    <i class="fas fa-share-alt"></i>
+                                </div>
+                                <div class="image-info">
+                                    <h3 class="image-name">Milky way full of stars in space</h3>
+                                    <p class="image-short-info">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                       </div>
+                    </div> -->
+                    <!-- picture 6 -->
+                    <!-- <div class="col-md-4 animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+                        <div class="images">
+                            <div class="top-card">
+                                <div class="top-image">
+                                    <img src="images/milky-way-4526277_1920.jpg" class="img-thumbnail" alt="Milkyway">
+                                </div>
+                                <div class="top-icons">
+                                    <i class="fas fa-expand-arrows-alt"></i>
+                                    <i class="fas fa-download"></i>
+                                    <i class="fas fa-trash-alt"></i>
+                                    <i class="fas fa-share-alt"></i>
+                                </div>
+                                <div class="image-info">
+                                    <h3 class="image-name">Milky way full of stars in space</h3>
+                                    <p class="image-short-info">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- Picture 7 -->
+                    <!-- <div class="col-md-4 animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+                        <div class="images">
+                            <div class="top-card">
+                                <div class="top-image">
+                                    <img src="images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg" class="img-thumbnail" alt="blue black sky with stars">
+                                </div>
+                                <div class="top-icons">
+                                    <i class="fas fa-expand-arrows-alt"></i>
+                                    <i class="fas fa-download"></i>
+                                    <i class="fas fa-trash-alt"></i>
+                                    <i class="fas fa-share-alt"></i>
+                                </div>
+                                <div class="image-info">
+                                    <h3 class="image-name">Milky way full of stars in space</h3>
+                                    <p class="image-short-info">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal">
+                        <span class="close"><i class="fas fa-times"></i></span>
+                        <div class="modalContent">
+                            <img src="" alt="" class="modalImage"/>
+
+                            <span class="modalText"></span>
+                        </div>
+                    </div>
+                </div> -->
+
+
+
+
+     <!-- Footer start -->
+    <script src="footer.js"></script>
+    <div id="footer-placeholder"></div>
+ <!-- Footer End -->
+<!-- Font awesome Link  -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+<script src="main.js"></script>
+<script src="favorites.js"></script>
+</body>
+</html>
